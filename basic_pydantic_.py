@@ -16,4 +16,5 @@ def update_patient_data(patient: Patient):
 patient_info={'name':'Nitish','age':30}
 patient1=Patient(**patient_info)
 insert_patient_data(patient1)
+
 update_patient_data(patient1)
